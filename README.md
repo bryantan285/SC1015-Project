@@ -1,14 +1,14 @@
-**Heart Disease Prediction Mini Project**
+# Heart Disease Prediction Mini Project
 
-Overview
+## Overview
 
 In this mini project, we aim to predict and determine the causal factors for heart disease using a dataset containing 12 variables. Our dataset comprises 7 numerical variables and 5 categorical variables. We have selected 7 variables for analysis: age, sex, resting blood pressure, cholesterol level, maximum heart rate, old peak, and the presence of heart disease.
 
-Aim of this project
+## Aim of this project
 
 To use machine learning to predict the occurrence of heart disease using various factors. We also hope that more prediction models will be applicable in hospitals not only for heart disease but also for various other conditions.
 
-Exploratory Analysis
+## Exploratory Analysis
 
 Conducted statistical distribution analysis to understand the relationships between numerical variables.
 
@@ -16,7 +16,7 @@ Utilized boxplot, histogram, and violin plot for visualization.
 
 Created a heatmap of the correlation coefficient matrix to identify correlations between variables.
 
-Data Cleaning
+## Data Cleaning
 
 We identified that there were 172 outliers with a cholesterol level of 0 and removed them from the dataset as they are invalid and felt that the outliers were messing up the models.
 
@@ -24,7 +24,7 @@ After training the models with the new dataset, the resulting data showed a high
 
 We also observed changes in the correlation coefficients post data cleaning, with the most significant changes in the old peak variable (from 0.4 to 0.5).
 
-Correlation Analysis
+## Correlation Analysis
 
 Categorized variables into good predictors and poor predictors of heart disease based on correlation coefficient heatmap.
 
@@ -40,7 +40,7 @@ Machine Learning models used for Prediction & Analysis
 1. **Multi-class decision tree** - It operates as a non-parametric model, signifying their lack of assumptions regarding data distribution. This attribute grants them flexibility, enabling the handling of diverse distributions effectively. Moreover, decision trees autonomously determine the most pertinent features within the dataset.
 1. **Up-sampling data -** We Increased the number of Patients with heart disease of the dataset to balance it with patients without heart disease. This balanced dataset enables machine learning models to learn more effectively from both classes, thereby reducing the risk of biased predictions that favor the majority class.
 
-Conclusion/What we learnt:
+## Conclusion/What we learnt:
 
 - Hands-on experience gained using various classification models for data analysis.
 - Employed data manipulation techniques like up-sampling to improve prediction analysis.
@@ -50,11 +50,11 @@ Conclusion/What we learnt:
 - Advanced models performed well in mitigating data overfitting compared to the dummy classifier.
 - Emphasized the importance of maintaining a balanced dataset for improved prediction accuracy and reliability.
 
-Slides
+## Slides
 
 The slides show the summary of our project. It covers the overall objectives of our project, data cleaning, exploratory analysis using different models and visualization as well as the conclusions and lessons that we learnt.
 
-Individual Contributions
+## Individual Contributions
 
 Seann: 
 
@@ -75,7 +75,7 @@ Bryan:
 - Evaluation of variables and resampling of data
 - Video editor and slides design
 
-**References**
+## References
 
 <https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction>
 
