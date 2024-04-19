@@ -56,20 +56,20 @@ The slides show the summary of our project. It covers the overall objectives of 
 
 ## Individual Contributions
 
-Seann: 
+Seann U2320014H: 
 
 - Machine Learning exploration
 - Decision Tree Classifier
 - Random Forest Classifier
 - Dummy Classifier
 
-Wei Jie:
+Wei Jie U2322329B:
 
 - Linear Regression
 - Determined Explained Variance (R^2) and Mean Squared Error (MSE)
 - Comprehend and conclude findings, commented the codes
 
-Bryan:
+Bryan U2322036C:
 
 - Exploratory Analysis and data visualization
 - Evaluation of variables and resampling of data
